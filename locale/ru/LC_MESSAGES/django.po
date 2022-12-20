@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-15 03:28+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\templates\index.html:9 .\templates\index.html:22 .\templates\index.html:26
+#: .\templates\index2.html:8
+msgid "Predictor"
+msgstr "Предиктор"
+
+#: .\templates\index.html:27
+msgid "Enter your MOSTBET ID and PASSWORD"
+msgstr "Введите свой MOSTBET ID и ПАРОЛЬ"
+
+#: .\templates\index.html:54
+msgid "Password"
+msgstr "Пароль"
+
+
+
+#: .\templates\index.html:78
+msgid "The BEST Predictor"
+msgstr "ПРЕДУПРЕЖДЕНИЕ !!! Если вы не введете свой идентификатор пользователя и пароль правильно, "
+"Программа не будет работать."
+
+#: .\templates\index.html:79
+msgid "Know the high rates."
+msgstr "Знайте высокие ставки."
+
+#: .\templates\index.html:80
+msgid "The easiest to use."
+msgstr "Самый простой в использовании."
+
+#: .\templates\index2.html:16
+msgid "You need to wait at least 15 minutes for the program to work correctly."
+msgstr "Нужно подождать не менее 15 минут, чтобы программа заработала корректно."
+
+#: .\templates\index2.html:30
+msgid "START"
+msgstr "Начало"
+
+
+msgid "WARNING !!! If you do not enter your user id and password correctly, the program will not work."
+msgstr "ПРЕДУПРЕЖДЕНИЕ !!! Если вы не введете свой идентификатор пользователя и пароль правильно,программа не будет работать."
+
+
+#: .\win\settings.py:110
+msgid "Azerbaijani"
+msgstr "Азербайджанский"
+
+#: .\win\settings.py:111
+msgid "English"
+msgstr "Английский"
+
+#: .\win\settings.py:112
+msgid "Russian"
+msgstr "Русский"
+

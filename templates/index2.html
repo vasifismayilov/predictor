@@ -1,0 +1,58 @@
+{%load static%}
+{%load i18n%}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aviator {% trans "Predictor" %} </title>
+    <link rel="stylesheet" href="{% static 'style.css'%}" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+            <div class="warning">
+                <h3> {% trans "You need to wait at least 15 minutes for the program to work correctly." %} </h3>
+            </div>
+            <div class="predict-circ">
+                <img src="{% static 'img/3213888b7ccacd46330a54e0ad4325ee.gif'%}" alt="">
+                <div class="number">
+                    <h3 class="show_number">0</h3>
+                </div>
+            </div>
+            <div class="magic-button">
+                <a class="start_btn" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                   {% trans "START" %} 
+                  </a>
+            </div>
+
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+    <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+      <input name="next" type="hidden" value="{{ redirect_to }}">
+      <select name="language">
+          {% get_current_language as LANGUAGE_CODE %}
+          {% get_available_languages as LANGUAGES %}
+          {% get_language_info_list for LANGUAGES as languages %}
+          {% for language in languages %}
+              <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                  {{ language.name_local }} ({{ language.code }})
+              </option>
+          {% endfor %}
+      </select>
+      <input type="submit" value="Go">
+  </form>
+
+    <script src="{% static 'app.js' %}"></script>
+  </body>
+</html>
