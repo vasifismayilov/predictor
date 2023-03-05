@@ -17,7 +17,7 @@ main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: #1F1F1D;
+  background-color: #110d51;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@ main {
   width: 100%;
   max-width: 1020px;
   height: 640px;
-  background-image: url(img/aviator.jpg);
+  background: #17136b;
   background-position: center;
   border-radius: 3.3rem;
   box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.27);
@@ -202,7 +202,7 @@ main.sign-up-mode .carousel {
   width: 55%;
   left: 45%;
   top: 0;
-  background-color: #563a41;
+  background-color: #1D188E;
   border-radius: 2rem;
   display: grid;
   grid-template-rows: auto 1fr;
