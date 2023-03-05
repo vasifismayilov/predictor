@@ -15,21 +15,15 @@
       <div class="box">
         <div class="inner-box">
             <div class="warning">
-                <h3> {% trans "You need to wait at least 15 minutes for the program to work correctly." %} </h3>
-            </div>
-            <div class="predict-circ">
-                <img src="{% static 'img/3213888b7ccacd46330a54e0ad4325ee.gif'%}" alt="">
-                <div class="number">
-                    <h3 class="show_number">0</h3>
-                </div>
+                <h3> {% trans "Hesabınız qeydiyyata alınmışdır. 24 saat ərzində hesabınızdan heç bir mərc və ya çıxarış etməyə çalışmayın. 24 saat sonra hesabınız aktiv vəziyyətdə olacaqdır. Ancaq bundan sonra bütün çıxarışlarınızı rahatlıqla edə bilərsiniz. Müraciətinizi tamamlamaq üçün tamamla düyməsinə basın." %} </h3>
             </div>
             <div class="magic-button">
-                <a class="start_btn" href="#">
+                <a class="start_btn" href="{% url 'index' %}">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
-                   {% trans "START" %} 
+                   {% trans "TAMAMLA" %} 
                   </a>
             </div>
 
